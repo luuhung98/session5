@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+height: 600px;
+width: 500px;
+border: 1px solid;
+margin: 50px
+}
+.header{
+    height: 200px;
+    background-color: bisque;
+    color: aliceblue;
+    background-image: url(./img/Screenshot\ 2024-05-08\ at\ 21.11.52.png);
+}
+.container{
+display: flex;
+height: 400px;
+color: aliceblue;
+}
+
+.container .item1{
+background-color: aqua;
+display: flex;
+flex-direction: column;
+width: 250px;
+
+}
+.left1{
+background-color: blue;
+height: 300px;
+background-image: url(./img/Screenshot\ 2024-05-08\ at\ 21.14.23.png);
+position: relative;
+}
+.left1 span{
+    position: absolute;
+    bottom: 4px;
+}
+
+.left2{
+background-color: blueviolet;
+height: 100px;
+position: relative;
+background-image: url(./img/Screenshot\ 2024-05-08\ at\ 21.13.07.png);
+}
+.left2 span{
+    position: absolute;
+    bottom: 4px;
+}
+.container .item2{
+display: flex;
+flex-direction: column;
+width: 250px;
+}
+.right1{
+background-color: brown;
+height: 100px;
+background-image: url(./img/Screenshot\ 2024-05-08\ at\ 21.13.50.png);
+}
+.right2{
+background-color: aqua;
+height: 100px;
+background-image: url(./img/Screenshot\ 2024-05-08\ at\ 21.12.38.png);
+}
+.right3{
+background-color: brown;
+height: 300px;
+position: relative;
+}
+.right3 p{
+    position: absolute;
+    top: 40px;
+}
+.right3 button{
+    width: 180px;
+    position: absolute;
+    bottom:20px;
+    left:30px
+
+}
